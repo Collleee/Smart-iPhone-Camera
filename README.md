@@ -18,7 +18,7 @@ This repository documents how I repurposed an old iPhone as a smart security cam
 - Start the **server** to begin broadcasting via:  
   - **HTTP** (MJPEG stream)  
   - **RTSP** (recommended for Home Assistant and HomeKit)  
-  - **Change the camera settings like username, password, resolution, FTP connections, and others in the app.**
+  - **Customize camera settings** such as username, password, resolution, FTP connections, and more within the app.
 
 ### 2. Motion Detection Clips to FTP (PRO Version Only ☹️)  
 - The **Pro version** supports motion detection and can **upload clips to an FTP server**.  
