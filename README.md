@@ -6,7 +6,7 @@ This repository documents how I repurposed an old iPhone as a smart security cam
 - [Features & Integration](#features--integration)  
   - [Streaming Video](#1-streaming-video)  
   - [Motion Detection Clips to FTP](#2-motion-detection-clips-to-ftp-pro-version-only-)  
-  - [Remote Control via HTTP Requests](#3-remote-control-via-http-requests)  
+  - [Toggle the motion detection and flashlight via HTTP Requests](#3-remote-control-via-http-requests)  
   - [API Endpoints](#api-endpoints)  
 - [Downsides & Workarounds](#downsides--workarounds)  
 - [Why This is Useful](#why-this-is-useful)  
