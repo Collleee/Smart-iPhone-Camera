@@ -1,0 +1,16 @@
+alias: Motion Clips Refresh
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - event.folder_watcher
+    attribute: event_type
+    to: created
+condition: []
+action:
+  - service: plex.refresh_library
+    metadata: {}
+    data:
+      server_name: Home Assistant
+      library_name: Motion Clips
+mode: single
