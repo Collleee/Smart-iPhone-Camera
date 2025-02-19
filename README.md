@@ -7,8 +7,9 @@ This repository documents how I repurposed an old iPhone as a smart security cam
   - [Streaming Video](#1-streaming-video)  
   - [Motion Detection Clips to FTP](#2-motion-detection-clips-to-ftp-pro-version-only-)  
   - [Remote Control via HTTP Requests](#3-remote-control-via-http-requests)  
+  - [API Endpoints](#api-endpoints)  
 - [Downsides & Workarounds](#downsides--workarounds)  
-- [Why This is Useful](#why-this-is-useful)
+- [Why This is Useful](#why-this-is-useful)  
 
 ## Features & Integration  
 
@@ -34,7 +35,7 @@ When requesting a **snapshot**, the response contains the **filename**. Append t
 
 These **GET requests** can be set up as **service actions** in **Home Assistant** using **restful_command**, allowing them to be triggered within automations or via the Home Assistant UI.  
 
-#### API Endpoints:  
+### API Endpoints  
 - **Toggle iPhone Flashlight:** `http://username:password@iphone_ipaddress:8083/light`  
 - **Toggle Motion Detection:** `http://username:password@iphone_ipaddress:8083/toggle_motion`  
 - **Capture Snapshot:** `http://username:password@iphone_ipaddress:8083/getsnapshot` (Returns the filename of the snapshot)  
