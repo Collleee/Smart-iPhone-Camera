@@ -5,7 +5,7 @@ This repository documents how I repurposed an old iPhone as a smart security cam
 ## Features & Integration  
 
 ### 1. Streaming Video  
-- Install **IP CAMERA LITE** (free) or **IP CAMERA PRO** (recommended for more features).  
+- Install [**IP CAMERA LITE**](https://apps.apple.com/us/app/ip-camera-lite/id1013455241) (free) or [**IP CAMERA PRO**](https://apps.apple.com/us/app/ip-camera-pro/id990605467) (recommended for more features).  
 - Start the **server** to begin broadcasting via:  
   - **HTTP** (MJPEG stream)  
   - **RTSP** (recommended for Home Assistant and HomeKit)  
