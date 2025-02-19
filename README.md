@@ -1,6 +1,6 @@
 # Turn Your Old iPhone into a Smart Camera for Home Assistant & More  
 
-This repository documents how I repurposed an old iPhone as a smart security camera for **Home Assistant** and potentially **HomeKit**. By using the [**IP CAMERA LITE**](https://apps.apple.com/us/app/ip-camera-lite/id1013455241) or [**IP CAMERA PRO**](https://apps.apple.com/us/app/ip-camera-pro/id990605467) app (recommended), you can broadcast the iPhone’s camera feed over **HTTP** or **RTSP**, enabling integration with multiple smart home platforms.
+This repository documents how I repurposed an old iPhone as a smart security camera for **Home Assistant** and potentially **HomeKit**. By using the [**IP Camera Lite**](https://apps.apple.com/us/app/ip-camera-lite/id1013455241) or [**IP Camera Pro**](https://apps.apple.com/us/app/ip-camera-pro/id990605467) app (recommended), you can broadcast the iPhone’s camera feed over **HTTP** or **RTSP**, enabling integration with multiple smart home platforms.
 
 ## Table of Contents  
 - [Features & Integration](#features--integration)  
