@@ -23,7 +23,7 @@ This repository documents how I repurposed an old iPhone as a smart security cam
 ### 2. Motion Detection Clips to FTP (PRO Version Only ☹️)  
 - The **Pro version** supports motion detection and can **upload clips to an FTP server**.  
 - Use **Home Assistant’s FTP add-on** to receive these clips and trigger automations.  
-- A **folder watcher** monitors when a new file is added to a folder in Home Assistant. I set up the **Plex Media Server add-on** with a dedicated **motion clips library**, and the folder watcher triggers an automation to **refresh the Plex library**, ensuring new recordings are instantly available for playback.  
+- **Folder watcher** monitors when a new file is added to a folder in Home Assistant. I set up the **Plex Media Server add-on** with a dedicated **motion clips library**, and the folder watcher triggers an automation to **refresh the Plex library**, ensuring new recordings are instantly available for playback.  
 
 ### 3. Toggle Motion Detection & Flashlight via HTTP Requests  
 The camera’s built-in **HTTP API** allows control via **GET requests**:  
